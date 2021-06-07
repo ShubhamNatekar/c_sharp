@@ -1,0 +1,16 @@
+/home/shubham/mycodes/c_sharp/Constructor/bin/Debug/net5.0/Constructor
+/home/shubham/mycodes/c_sharp/Constructor/bin/Debug/net5.0/Constructor.deps.json
+/home/shubham/mycodes/c_sharp/Constructor/bin/Debug/net5.0/Constructor.runtimeconfig.json
+/home/shubham/mycodes/c_sharp/Constructor/bin/Debug/net5.0/Constructor.runtimeconfig.dev.json
+/home/shubham/mycodes/c_sharp/Constructor/bin/Debug/net5.0/Constructor.dll
+/home/shubham/mycodes/c_sharp/Constructor/bin/Debug/net5.0/ref/Constructor.dll
+/home/shubham/mycodes/c_sharp/Constructor/bin/Debug/net5.0/Constructor.pdb
+/home/shubham/mycodes/c_sharp/Constructor/obj/Debug/net5.0/Constructor.csproj.AssemblyReference.cache
+/home/shubham/mycodes/c_sharp/Constructor/obj/Debug/net5.0/Constructor.GeneratedMSBuildEditorConfig.editorconfig
+/home/shubham/mycodes/c_sharp/Constructor/obj/Debug/net5.0/Constructor.AssemblyInfoInputs.cache
+/home/shubham/mycodes/c_sharp/Constructor/obj/Debug/net5.0/Constructor.AssemblyInfo.cs
+/home/shubham/mycodes/c_sharp/Constructor/obj/Debug/net5.0/Constructor.csproj.CoreCompileInputs.cache
+/home/shubham/mycodes/c_sharp/Constructor/obj/Debug/net5.0/Constructor.dll
+/home/shubham/mycodes/c_sharp/Constructor/obj/Debug/net5.0/ref/Constructor.dll
+/home/shubham/mycodes/c_sharp/Constructor/obj/Debug/net5.0/Constructor.pdb
+/home/shubham/mycodes/c_sharp/Constructor/obj/Debug/net5.0/Constructor.genruntimeconfig.cache

@@ -1,0 +1,16 @@
+/home/shubham/mycodes/c_sharp/Control_Statement/bin/Debug/net5.0/Control_Statement
+/home/shubham/mycodes/c_sharp/Control_Statement/bin/Debug/net5.0/Control_Statement.deps.json
+/home/shubham/mycodes/c_sharp/Control_Statement/bin/Debug/net5.0/Control_Statement.runtimeconfig.json
+/home/shubham/mycodes/c_sharp/Control_Statement/bin/Debug/net5.0/Control_Statement.runtimeconfig.dev.json
+/home/shubham/mycodes/c_sharp/Control_Statement/bin/Debug/net5.0/Control_Statement.dll
+/home/shubham/mycodes/c_sharp/Control_Statement/bin/Debug/net5.0/ref/Control_Statement.dll
+/home/shubham/mycodes/c_sharp/Control_Statement/bin/Debug/net5.0/Control_Statement.pdb
+/home/shubham/mycodes/c_sharp/Control_Statement/obj/Debug/net5.0/Control_Statement.csproj.AssemblyReference.cache
+/home/shubham/mycodes/c_sharp/Control_Statement/obj/Debug/net5.0/Control_Statement.GeneratedMSBuildEditorConfig.editorconfig
+/home/shubham/mycodes/c_sharp/Control_Statement/obj/Debug/net5.0/Control_Statement.AssemblyInfoInputs.cache
+/home/shubham/mycodes/c_sharp/Control_Statement/obj/Debug/net5.0/Control_Statement.AssemblyInfo.cs
+/home/shubham/mycodes/c_sharp/Control_Statement/obj/Debug/net5.0/Control_Statement.csproj.CoreCompileInputs.cache
+/home/shubham/mycodes/c_sharp/Control_Statement/obj/Debug/net5.0/Control_Statement.dll
+/home/shubham/mycodes/c_sharp/Control_Statement/obj/Debug/net5.0/ref/Control_Statement.dll
+/home/shubham/mycodes/c_sharp/Control_Statement/obj/Debug/net5.0/Control_Statement.pdb
+/home/shubham/mycodes/c_sharp/Control_Statement/obj/Debug/net5.0/Control_Statement.genruntimeconfig.cache

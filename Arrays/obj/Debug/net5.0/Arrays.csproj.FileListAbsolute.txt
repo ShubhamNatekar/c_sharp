@@ -1,0 +1,16 @@
+/home/shubham/mycodes/c_sharp/Arrays/bin/Debug/net5.0/Arrays
+/home/shubham/mycodes/c_sharp/Arrays/bin/Debug/net5.0/Arrays.deps.json
+/home/shubham/mycodes/c_sharp/Arrays/bin/Debug/net5.0/Arrays.runtimeconfig.json
+/home/shubham/mycodes/c_sharp/Arrays/bin/Debug/net5.0/Arrays.runtimeconfig.dev.json
+/home/shubham/mycodes/c_sharp/Arrays/bin/Debug/net5.0/Arrays.dll
+/home/shubham/mycodes/c_sharp/Arrays/bin/Debug/net5.0/ref/Arrays.dll
+/home/shubham/mycodes/c_sharp/Arrays/bin/Debug/net5.0/Arrays.pdb
+/home/shubham/mycodes/c_sharp/Arrays/obj/Debug/net5.0/Arrays.csproj.AssemblyReference.cache
+/home/shubham/mycodes/c_sharp/Arrays/obj/Debug/net5.0/Arrays.GeneratedMSBuildEditorConfig.editorconfig
+/home/shubham/mycodes/c_sharp/Arrays/obj/Debug/net5.0/Arrays.AssemblyInfoInputs.cache
+/home/shubham/mycodes/c_sharp/Arrays/obj/Debug/net5.0/Arrays.AssemblyInfo.cs
+/home/shubham/mycodes/c_sharp/Arrays/obj/Debug/net5.0/Arrays.csproj.CoreCompileInputs.cache
+/home/shubham/mycodes/c_sharp/Arrays/obj/Debug/net5.0/Arrays.dll
+/home/shubham/mycodes/c_sharp/Arrays/obj/Debug/net5.0/ref/Arrays.dll
+/home/shubham/mycodes/c_sharp/Arrays/obj/Debug/net5.0/Arrays.pdb
+/home/shubham/mycodes/c_sharp/Arrays/obj/Debug/net5.0/Arrays.genruntimeconfig.cache

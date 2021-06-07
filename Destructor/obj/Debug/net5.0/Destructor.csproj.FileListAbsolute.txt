@@ -1,0 +1,16 @@
+/home/shubham/mycodes/c_sharp/Destructor/bin/Debug/net5.0/Destructor
+/home/shubham/mycodes/c_sharp/Destructor/bin/Debug/net5.0/Destructor.deps.json
+/home/shubham/mycodes/c_sharp/Destructor/bin/Debug/net5.0/Destructor.runtimeconfig.json
+/home/shubham/mycodes/c_sharp/Destructor/bin/Debug/net5.0/Destructor.runtimeconfig.dev.json
+/home/shubham/mycodes/c_sharp/Destructor/bin/Debug/net5.0/Destructor.dll
+/home/shubham/mycodes/c_sharp/Destructor/bin/Debug/net5.0/ref/Destructor.dll
+/home/shubham/mycodes/c_sharp/Destructor/bin/Debug/net5.0/Destructor.pdb
+/home/shubham/mycodes/c_sharp/Destructor/obj/Debug/net5.0/Destructor.csproj.AssemblyReference.cache
+/home/shubham/mycodes/c_sharp/Destructor/obj/Debug/net5.0/Destructor.GeneratedMSBuildEditorConfig.editorconfig
+/home/shubham/mycodes/c_sharp/Destructor/obj/Debug/net5.0/Destructor.AssemblyInfoInputs.cache
+/home/shubham/mycodes/c_sharp/Destructor/obj/Debug/net5.0/Destructor.AssemblyInfo.cs
+/home/shubham/mycodes/c_sharp/Destructor/obj/Debug/net5.0/Destructor.csproj.CoreCompileInputs.cache
+/home/shubham/mycodes/c_sharp/Destructor/obj/Debug/net5.0/Destructor.dll
+/home/shubham/mycodes/c_sharp/Destructor/obj/Debug/net5.0/ref/Destructor.dll
+/home/shubham/mycodes/c_sharp/Destructor/obj/Debug/net5.0/Destructor.pdb
+/home/shubham/mycodes/c_sharp/Destructor/obj/Debug/net5.0/Destructor.genruntimeconfig.cache
