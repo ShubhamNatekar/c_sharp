@@ -1,0 +1,16 @@
+/home/shubham/mycodes/c_sharp/Static/bin/Debug/net5.0/Static
+/home/shubham/mycodes/c_sharp/Static/bin/Debug/net5.0/Static.deps.json
+/home/shubham/mycodes/c_sharp/Static/bin/Debug/net5.0/Static.runtimeconfig.json
+/home/shubham/mycodes/c_sharp/Static/bin/Debug/net5.0/Static.runtimeconfig.dev.json
+/home/shubham/mycodes/c_sharp/Static/bin/Debug/net5.0/Static.dll
+/home/shubham/mycodes/c_sharp/Static/bin/Debug/net5.0/ref/Static.dll
+/home/shubham/mycodes/c_sharp/Static/bin/Debug/net5.0/Static.pdb
+/home/shubham/mycodes/c_sharp/Static/obj/Debug/net5.0/Static.csproj.AssemblyReference.cache
+/home/shubham/mycodes/c_sharp/Static/obj/Debug/net5.0/Static.GeneratedMSBuildEditorConfig.editorconfig
+/home/shubham/mycodes/c_sharp/Static/obj/Debug/net5.0/Static.AssemblyInfoInputs.cache
+/home/shubham/mycodes/c_sharp/Static/obj/Debug/net5.0/Static.AssemblyInfo.cs
+/home/shubham/mycodes/c_sharp/Static/obj/Debug/net5.0/Static.csproj.CoreCompileInputs.cache
+/home/shubham/mycodes/c_sharp/Static/obj/Debug/net5.0/Static.dll
+/home/shubham/mycodes/c_sharp/Static/obj/Debug/net5.0/ref/Static.dll
+/home/shubham/mycodes/c_sharp/Static/obj/Debug/net5.0/Static.pdb
+/home/shubham/mycodes/c_sharp/Static/obj/Debug/net5.0/Static.genruntimeconfig.cache
