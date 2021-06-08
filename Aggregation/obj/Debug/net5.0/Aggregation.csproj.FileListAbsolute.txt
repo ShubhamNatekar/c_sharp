@@ -1,0 +1,16 @@
+/home/shubham/mycodes/c_sharp/Aggregation/bin/Debug/net5.0/Aggregation
+/home/shubham/mycodes/c_sharp/Aggregation/bin/Debug/net5.0/Aggregation.deps.json
+/home/shubham/mycodes/c_sharp/Aggregation/bin/Debug/net5.0/Aggregation.runtimeconfig.json
+/home/shubham/mycodes/c_sharp/Aggregation/bin/Debug/net5.0/Aggregation.runtimeconfig.dev.json
+/home/shubham/mycodes/c_sharp/Aggregation/bin/Debug/net5.0/Aggregation.dll
+/home/shubham/mycodes/c_sharp/Aggregation/bin/Debug/net5.0/ref/Aggregation.dll
+/home/shubham/mycodes/c_sharp/Aggregation/bin/Debug/net5.0/Aggregation.pdb
+/home/shubham/mycodes/c_sharp/Aggregation/obj/Debug/net5.0/Aggregation.csproj.AssemblyReference.cache
+/home/shubham/mycodes/c_sharp/Aggregation/obj/Debug/net5.0/Aggregation.GeneratedMSBuildEditorConfig.editorconfig
+/home/shubham/mycodes/c_sharp/Aggregation/obj/Debug/net5.0/Aggregation.AssemblyInfoInputs.cache
+/home/shubham/mycodes/c_sharp/Aggregation/obj/Debug/net5.0/Aggregation.AssemblyInfo.cs
+/home/shubham/mycodes/c_sharp/Aggregation/obj/Debug/net5.0/Aggregation.csproj.CoreCompileInputs.cache
+/home/shubham/mycodes/c_sharp/Aggregation/obj/Debug/net5.0/Aggregation.dll
+/home/shubham/mycodes/c_sharp/Aggregation/obj/Debug/net5.0/ref/Aggregation.dll
+/home/shubham/mycodes/c_sharp/Aggregation/obj/Debug/net5.0/Aggregation.pdb
+/home/shubham/mycodes/c_sharp/Aggregation/obj/Debug/net5.0/Aggregation.genruntimeconfig.cache
