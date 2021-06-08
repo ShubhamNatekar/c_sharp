@@ -1,0 +1,16 @@
+/home/shubham/mycodes/c_sharp/Overloading/bin/Debug/net5.0/Overloading
+/home/shubham/mycodes/c_sharp/Overloading/bin/Debug/net5.0/Overloading.deps.json
+/home/shubham/mycodes/c_sharp/Overloading/bin/Debug/net5.0/Overloading.runtimeconfig.json
+/home/shubham/mycodes/c_sharp/Overloading/bin/Debug/net5.0/Overloading.runtimeconfig.dev.json
+/home/shubham/mycodes/c_sharp/Overloading/bin/Debug/net5.0/Overloading.dll
+/home/shubham/mycodes/c_sharp/Overloading/bin/Debug/net5.0/ref/Overloading.dll
+/home/shubham/mycodes/c_sharp/Overloading/bin/Debug/net5.0/Overloading.pdb
+/home/shubham/mycodes/c_sharp/Overloading/obj/Debug/net5.0/Overloading.csproj.AssemblyReference.cache
+/home/shubham/mycodes/c_sharp/Overloading/obj/Debug/net5.0/Overloading.GeneratedMSBuildEditorConfig.editorconfig
+/home/shubham/mycodes/c_sharp/Overloading/obj/Debug/net5.0/Overloading.AssemblyInfoInputs.cache
+/home/shubham/mycodes/c_sharp/Overloading/obj/Debug/net5.0/Overloading.AssemblyInfo.cs
+/home/shubham/mycodes/c_sharp/Overloading/obj/Debug/net5.0/Overloading.csproj.CoreCompileInputs.cache
+/home/shubham/mycodes/c_sharp/Overloading/obj/Debug/net5.0/Overloading.dll
+/home/shubham/mycodes/c_sharp/Overloading/obj/Debug/net5.0/ref/Overloading.dll
+/home/shubham/mycodes/c_sharp/Overloading/obj/Debug/net5.0/Overloading.pdb
+/home/shubham/mycodes/c_sharp/Overloading/obj/Debug/net5.0/Overloading.genruntimeconfig.cache
