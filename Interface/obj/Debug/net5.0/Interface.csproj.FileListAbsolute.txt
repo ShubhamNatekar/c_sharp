@@ -1,0 +1,16 @@
+/home/shubham/mycodes/c_sharp/Interface/obj/Debug/net5.0/Interface.csproj.AssemblyReference.cache
+/home/shubham/mycodes/c_sharp/Interface/obj/Debug/net5.0/Interface.GeneratedMSBuildEditorConfig.editorconfig
+/home/shubham/mycodes/c_sharp/Interface/obj/Debug/net5.0/Interface.AssemblyInfoInputs.cache
+/home/shubham/mycodes/c_sharp/Interface/obj/Debug/net5.0/Interface.AssemblyInfo.cs
+/home/shubham/mycodes/c_sharp/Interface/obj/Debug/net5.0/Interface.csproj.CoreCompileInputs.cache
+/home/shubham/mycodes/c_sharp/Interface/bin/Debug/net5.0/Interface
+/home/shubham/mycodes/c_sharp/Interface/bin/Debug/net5.0/Interface.deps.json
+/home/shubham/mycodes/c_sharp/Interface/bin/Debug/net5.0/Interface.runtimeconfig.json
+/home/shubham/mycodes/c_sharp/Interface/bin/Debug/net5.0/Interface.runtimeconfig.dev.json
+/home/shubham/mycodes/c_sharp/Interface/bin/Debug/net5.0/Interface.dll
+/home/shubham/mycodes/c_sharp/Interface/bin/Debug/net5.0/ref/Interface.dll
+/home/shubham/mycodes/c_sharp/Interface/bin/Debug/net5.0/Interface.pdb
+/home/shubham/mycodes/c_sharp/Interface/obj/Debug/net5.0/Interface.dll
+/home/shubham/mycodes/c_sharp/Interface/obj/Debug/net5.0/ref/Interface.dll
+/home/shubham/mycodes/c_sharp/Interface/obj/Debug/net5.0/Interface.pdb
+/home/shubham/mycodes/c_sharp/Interface/obj/Debug/net5.0/Interface.genruntimeconfig.cache

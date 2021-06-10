@@ -1,0 +1,16 @@
+/home/shubham/mycodes/c_sharp/Abstract/bin/Debug/net5.0/Abstract
+/home/shubham/mycodes/c_sharp/Abstract/bin/Debug/net5.0/Abstract.deps.json
+/home/shubham/mycodes/c_sharp/Abstract/bin/Debug/net5.0/Abstract.runtimeconfig.json
+/home/shubham/mycodes/c_sharp/Abstract/bin/Debug/net5.0/Abstract.runtimeconfig.dev.json
+/home/shubham/mycodes/c_sharp/Abstract/bin/Debug/net5.0/Abstract.dll
+/home/shubham/mycodes/c_sharp/Abstract/bin/Debug/net5.0/ref/Abstract.dll
+/home/shubham/mycodes/c_sharp/Abstract/bin/Debug/net5.0/Abstract.pdb
+/home/shubham/mycodes/c_sharp/Abstract/obj/Debug/net5.0/Abstract.csproj.AssemblyReference.cache
+/home/shubham/mycodes/c_sharp/Abstract/obj/Debug/net5.0/Abstract.GeneratedMSBuildEditorConfig.editorconfig
+/home/shubham/mycodes/c_sharp/Abstract/obj/Debug/net5.0/Abstract.AssemblyInfoInputs.cache
+/home/shubham/mycodes/c_sharp/Abstract/obj/Debug/net5.0/Abstract.AssemblyInfo.cs
+/home/shubham/mycodes/c_sharp/Abstract/obj/Debug/net5.0/Abstract.csproj.CoreCompileInputs.cache
+/home/shubham/mycodes/c_sharp/Abstract/obj/Debug/net5.0/Abstract.dll
+/home/shubham/mycodes/c_sharp/Abstract/obj/Debug/net5.0/ref/Abstract.dll
+/home/shubham/mycodes/c_sharp/Abstract/obj/Debug/net5.0/Abstract.pdb
+/home/shubham/mycodes/c_sharp/Abstract/obj/Debug/net5.0/Abstract.genruntimeconfig.cache
