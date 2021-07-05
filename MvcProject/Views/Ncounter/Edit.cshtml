@@ -1,0 +1,64 @@
+@model MvcProject.Models.Ncounter
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<h4>Ncounter</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Serialkey" class="control-label"></label>
+                <input asp-for="Serialkey" class="form-control" />
+                <span asp-validation-for="Serialkey" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Whseid" class="control-label"></label>
+                <input asp-for="Whseid" class="form-control" />
+                <span asp-validation-for="Whseid" class="text-danger"></span>
+            </div>
+            <input type="hidden" asp-for="Keyname" />
+            <div class="form-group">
+                <label asp-for="Keycount" class="control-label"></label>
+                <input asp-for="Keycount" class="form-control" />
+                <span asp-validation-for="Keycount" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Adddate" class="control-label"></label>
+                <input asp-for="Adddate" class="form-control" />
+                <span asp-validation-for="Adddate" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Addwho" class="control-label"></label>
+                <input asp-for="Addwho" class="form-control" />
+                <span asp-validation-for="Addwho" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Editdate" class="control-label"></label>
+                <input asp-for="Editdate" class="form-control" />
+                <span asp-validation-for="Editdate" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Editwho" class="control-label"></label>
+                <input asp-for="Editwho" class="form-control" />
+                <span asp-validation-for="Editwho" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

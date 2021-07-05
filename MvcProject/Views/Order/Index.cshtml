@@ -1,0 +1,1325 @@
+@model IEnumerable<MvcProject.Models.Order>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Serialkey)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Whseid)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Storerkey)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Externorderkey)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Orderdate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Deliverydate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Priority)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Consigneekey)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CContact1)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CContact2)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CCompany)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CAddress1)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CAddress2)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CAddress3)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CAddress4)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CCity)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CState)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CZip)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CCountry)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CIsocntrycode)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CPhone1)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CPhone2)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CFax1)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CFax2)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CVat)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Buyerpo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Billtokey)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.BContact1)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.BContact2)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.BCompany)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.BAddress1)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.BAddress2)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.BAddress3)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.BAddress4)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.BCity)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.BState)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.BZip)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.BCountry)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.BIsocntrycode)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.BPhone1)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.BPhone2)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.BFax1)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.BFax2)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.BVat)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Incoterm)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Pmtterm)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Door)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Sortationlocation)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Batchflag)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Bulkcartongroup)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Route)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Stop)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Openqty)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Status)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Dischargeplace)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Deliveryplace)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Intermodalvehicle)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Countryoforigin)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Countrydestination)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Updatesource)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Type)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Ordergroup)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Effectivedate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Stage)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DcId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.WhseId1)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.SplitOrders)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ApptStatus)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Cheppalletindicator)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Containertype)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Containerqty)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Billedcontainerqty)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Transportationmode)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Transportationservice)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Externalorderkey2)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CEmail1)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CEmail2)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Susr1)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Susr2)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Susr3)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Susr4)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Susr5)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Notes2)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ItemNumber)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ForteFlag)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Loadid)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Shiptogether)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Deliverydate2)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Requestedshipdate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Actualshipdate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DeliverDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Ordervalue)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Ohtype)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Externalloadid)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Destinationnestid)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Referencenum)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Intransitkey)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Receiptkey)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CaseLabelType)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Labelname)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Stdsscclabelname)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Stdgtinlabelname)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Rfidsscclabelname)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Rfidgtinlabelname)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Rfidflag)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CarrierCode)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CarrierName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CarrierAddress1)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CarrierAddress2)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CarrierCity)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CarrierState)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CarrierZip)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CarrierCountry)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CarrierPhone)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DriverName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TrailerNumber)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TrailerOwner)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TrailerType)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DepDateTime)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Orderbreak)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Allocatedonerp)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Tradingpartner)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Pronumber)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Enablepacking)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Packinglocation)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Ordersid)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Suspendedindicator)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Picklistreportid)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Packinglistreportid)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Sourceversion)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Referencetype)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Referencedocument)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Referencelocation)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Referenceversion)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Freightchargeamount)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Freightcostamount)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Appointmentkey)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.AllowOverPick)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Totalqty)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Totalgrosswgt)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Totalcube)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Totalorderlines)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ReferenceAccountingEntity)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Pokey)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Apportion)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Containerid)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Promisedshipdate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Plannedshipdate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Scheduledshipdate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Promiseddelvdate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Planneddelvdate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Scheduleddelvdate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Actualdelvdate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Earliestshipdate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Earliestdeliverydate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Carrierroutedocument)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Carrierrouteaccountingentity)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Carrierroutelocation)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Carrierrouteversion)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Tmhouseairwaybillnumber)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Tmmasterairwaybillnumber)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Tmbookingnumber)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Tmhouseoceanbolnumber)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Tmmasteroceanbolnumber)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Tmequipmentnumber)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Tmsealnumber)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Tmlicenseplatenumber)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Tmequipmenttype)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Tmequipmentlength)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Tmequipmentattribute)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Tmairservicelevel)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Tmoceanservicelevel)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Tmoceantariffservice)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Tmportofloading)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Tmportofdischarge)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Tmroutedvia)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Tmserviceattribute)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Tmfreightcostcurrency)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Tmfreightchargecurrency)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Actualarrivaldate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CAddress5)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CAddress6)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.BAddress5)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.BAddress6)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Returntoparty)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Trailerkey)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Carrierroutestatus)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Splitshipmentindicator)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Splitshipmentoriginalorderkey)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Splitshipmentfinalshipment)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Bodapplicationarea)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Freightcostbaseamount)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Freightchargebaseamount)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Packingvaltemplate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Packnotes)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Totalroutes)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Autodoorassigned)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Autostageassigned)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Autopackassigned)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Autodockassignedhow)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Autodockassignedset)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Autodockassignedstep)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Autodockassigntime)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Totalpalletestimate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Requireorderclose)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Notes)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Spsapistrategykey)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Bolnumber)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Bolprinted)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Shiptogroup)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Adddate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Addwho)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Editdate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Editwho)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Hostprocessrequired)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Batchordernumber)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Serialkey)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Whseid)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Storerkey)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Externorderkey)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Orderdate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Deliverydate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Priority)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Consigneekey)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CContact1)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CContact2)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CCompany)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CAddress1)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CAddress2)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CAddress3)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CAddress4)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CCity)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CState)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CZip)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CCountry)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CIsocntrycode)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CPhone1)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CPhone2)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CFax1)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CFax2)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CVat)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Buyerpo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Billtokey)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.BContact1)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.BContact2)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.BCompany)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.BAddress1)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.BAddress2)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.BAddress3)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.BAddress4)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.BCity)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.BState)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.BZip)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.BCountry)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.BIsocntrycode)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.BPhone1)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.BPhone2)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.BFax1)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.BFax2)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.BVat)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Incoterm)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Pmtterm)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Door)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Sortationlocation)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Batchflag)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Bulkcartongroup)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Route)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Stop)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Openqty)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Status)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Dischargeplace)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Deliveryplace)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Intermodalvehicle)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Countryoforigin)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Countrydestination)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Updatesource)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Type)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Ordergroup)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Effectivedate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Stage)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DcId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.WhseId1)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SplitOrders)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ApptStatus)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Cheppalletindicator)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Containertype)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Containerqty)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Billedcontainerqty)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Transportationmode)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Transportationservice)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Externalorderkey2)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CEmail1)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CEmail2)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Susr1)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Susr2)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Susr3)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Susr4)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Susr5)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Notes2)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ItemNumber)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ForteFlag)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Loadid)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Shiptogether)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Deliverydate2)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Requestedshipdate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Actualshipdate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DeliverDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Ordervalue)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Ohtype)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Externalloadid)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Destinationnestid)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Referencenum)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Intransitkey)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Receiptkey)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CaseLabelType)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Labelname)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Stdsscclabelname)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Stdgtinlabelname)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Rfidsscclabelname)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Rfidgtinlabelname)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Rfidflag)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CarrierCode)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CarrierName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CarrierAddress1)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CarrierAddress2)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CarrierCity)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CarrierState)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CarrierZip)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CarrierCountry)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CarrierPhone)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DriverName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TrailerNumber)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TrailerOwner)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TrailerType)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DepDateTime)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Orderbreak)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Allocatedonerp)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Tradingpartner)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Pronumber)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Enablepacking)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Packinglocation)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Ordersid)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Suspendedindicator)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Picklistreportid)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Packinglistreportid)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Sourceversion)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Referencetype)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Referencedocument)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Referencelocation)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Referenceversion)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Freightchargeamount)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Freightcostamount)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Appointmentkey)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AllowOverPick)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Totalqty)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Totalgrosswgt)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Totalcube)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Totalorderlines)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ReferenceAccountingEntity)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Pokey)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Apportion)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Containerid)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Promisedshipdate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Plannedshipdate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Scheduledshipdate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Promiseddelvdate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Planneddelvdate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Scheduleddelvdate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Actualdelvdate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Earliestshipdate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Earliestdeliverydate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Carrierroutedocument)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Carrierrouteaccountingentity)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Carrierroutelocation)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Carrierrouteversion)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Tmhouseairwaybillnumber)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Tmmasterairwaybillnumber)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Tmbookingnumber)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Tmhouseoceanbolnumber)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Tmmasteroceanbolnumber)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Tmequipmentnumber)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Tmsealnumber)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Tmlicenseplatenumber)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Tmequipmenttype)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Tmequipmentlength)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Tmequipmentattribute)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Tmairservicelevel)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Tmoceanservicelevel)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Tmoceantariffservice)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Tmportofloading)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Tmportofdischarge)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Tmroutedvia)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Tmserviceattribute)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Tmfreightcostcurrency)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Tmfreightchargecurrency)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Actualarrivaldate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CAddress5)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CAddress6)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.BAddress5)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.BAddress6)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Returntoparty)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Trailerkey)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Carrierroutestatus)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Splitshipmentindicator)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Splitshipmentoriginalorderkey)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Splitshipmentfinalshipment)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Bodapplicationarea)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Freightcostbaseamount)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Freightchargebaseamount)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Packingvaltemplate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Packnotes)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Totalroutes)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Autodoorassigned)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Autostageassigned)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Autopackassigned)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Autodockassignedhow)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Autodockassignedset)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Autodockassignedstep)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Autodockassigntime)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Totalpalletestimate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Requireorderclose)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Notes)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Spsapistrategykey)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Bolnumber)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Bolprinted)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Shiptogroup)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Adddate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Addwho)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Editdate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Editwho)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Hostprocessrequired)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Batchordernumber)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.Orderkey">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.Orderkey">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.Orderkey">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

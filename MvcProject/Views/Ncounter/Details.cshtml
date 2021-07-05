@@ -1,0 +1,60 @@
+@model MvcProject.Models.Ncounter
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>Ncounter</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Serialkey)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Serialkey)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Whseid)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Whseid)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Keycount)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Keycount)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Adddate)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Adddate)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Addwho)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Addwho)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Editdate)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Editdate)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Editwho)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Editwho)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.Keyname">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>

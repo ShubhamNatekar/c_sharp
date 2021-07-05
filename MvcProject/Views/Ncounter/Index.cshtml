@@ -1,0 +1,71 @@
+@model IEnumerable<MvcProject.Models.Ncounter>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Serialkey)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Whseid)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Keycount)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Adddate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Addwho)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Editdate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Editwho)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Serialkey)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Whseid)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Keycount)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Adddate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Addwho)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Editdate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Editwho)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.Keyname">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.Keyname">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.Keyname">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
